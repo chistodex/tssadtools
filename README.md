@@ -1,2 +1,2 @@
-# tssadtools
-TSSAd Tools is desktop, web, and mobile (maybe?) app for TUSD TSS Admins.
+# tssadtools.bat
+TSSAdTools.bat is batch script command-line interface for common tasks performed when in front of a computer.
