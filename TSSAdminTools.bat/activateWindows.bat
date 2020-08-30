@@ -7,14 +7,14 @@ if "%version%" == "6.1" goto WIN7
 if "%version%" == "10.0" goto WIN10
 
 :WIN7
-set key=KJQHK-6BBRV-H3C29-KB2JD-YJCHJ
+set key=insert-win-7-key-here
 goto ACTIVATE
 
 :WIN10
 rem education license
-rem set key=PNM9D-TG9P4-J7DWP-77V3X-66PJD
+rem set key=insert-win-10-edu-key-here
 rem pro license
-set key=CYNT8-RVCCH-XFR7H-7H2BG-HFR9M
+set key=insert-win-10-pro-key-here
 
 goto ACTIVATE
 
