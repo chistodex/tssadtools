@@ -1,0 +1,242 @@
+﻿<Window     x:Name          ="MainWindow_Window"
+            xmlns           ="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x         ="http://schemas.microsoft.com/winfx/2006/xaml"
+            Height          ="Auto" 
+            ResizeMode      ="NoResize"
+            SizeToContent   ="Height"
+            Title           ="TSSAdmin Tools"
+            Width           ="445" >
+
+    <StackPanel 
+        HorizontalAlignment ="Center" 
+        Margin              ="5"
+        Orientation="Vertical">
+            <StackPanel 
+                Margin              ="5" 
+                Orientation         ="Horizontal" 
+                HorizontalAlignment ="Center">
+                    <Label 
+                        Content             ="Target PC:" 
+                        Margin              ="2.5" 
+                        VerticalAlignment   ="Center" />
+                    <TextBox x:Name ="TargetPC_TextBox" 
+                        Height      ="30" 
+                        Margin      ="2.5" 
+                        TextWrapping="Wrap" 
+                        Width       ="200" />
+                    <Button 
+                        Content ="Test" 
+                        Margin  ="2.5" 
+                        Width   ="50" />
+            </StackPanel>
+
+            <WrapPanel 
+                Margin="7.5"
+                Orientation="Horizontal">
+                    <Button x:Name  ="InfoPage_Button"
+                            Background = "White"
+                            Content ="Info" 
+                            Width   ="101" />
+                    <Button x:Name  ="ScriptsPage_Button"
+                            Content ="Scripts" 
+                            Width   ="101" />
+                    <Button x:Name  ="DocumentationPage_Button"
+                            Content ="Documentation" 
+                            Width   ="101" />
+                    <Button x:Name  ="AboutPage_Button"
+                            Content ="About" 
+                            Width   ="101" />
+            </WrapPanel>
+        
+            <WrapPanel x:Name="InfoPage"
+                HorizontalAlignment="Center"
+                Margin="5" 
+                Orientation="Horizontal"
+                Visibility="Visible">
+                <Label
+                    Content="Target PC:"
+                    Height="30" 
+                    Margin="2.5" 
+                    Width="100" />
+                <TextBox x:Name="TargetPC_TextBox2" 
+                    Height="30" 
+                    IsReadOnly="True"
+                    Margin="2.5" 
+                    Text="Next"
+                    Width="200" />
+                <Label
+                    Content="IP Address:"
+                    Height="30"
+                    Margin="2.5"
+                    Width="100" />
+                <TextBox x:Name="IPAddress_TextBox"
+                    Height="30"
+                    IsReadOnly="True"
+                    Margin="2.5"
+                    Text="192.168.0.1"
+                    Width="200" />
+                <Label
+                    Content="MAC Address:"
+                    Height="30"
+                    Margin="2.5"
+                    Width="100" />
+                <TextBox x:Name="MACAddress_TextBox"
+                    Height="30"
+                    IsReadOnly="True"
+                    Margin="2.5"
+                    Text="10:10:10:10"
+                    Width="200" />
+                <Button Height="50" Margin="2.5" Width="200">Button4</Button>
+                <Button Height="50" Margin="2.5" Width="200">Button5</Button>
+                <Button Height="50" Margin="2.5" Width="200">Button6</Button>
+                <Button Height="50" Margin="2.5" Width="200">Button7</Button>
+            </WrapPanel>
+
+            <WrapPanel x:Name="ScriptsPage"
+                HorizontalAlignment="Center" 
+                Margin="5" 
+                Orientation="Horizontal"
+                Visibility="Collapsed">
+                <Button
+                    Content="Button8"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button9"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button10"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button11"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button12"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button13"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button14"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button15"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+            </WrapPanel>
+
+            <WrapPanel x:Name="DocumentationPage"
+                HorizontalAlignment="Center" 
+                Margin="5" 
+                Orientation="Horizontal"
+                Visibility="Collapsed">
+                <Button
+                    Content="Button16"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button17"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button18"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button19"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button20"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button21"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button22"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button23"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+            </WrapPanel>
+
+            <WrapPanel x:Name="AboutPage"
+                HorizontalAlignment="Center" 
+                Margin="5" 
+                Orientation="Horizontal"
+                Visibility="Collapsed">
+                <Button
+                    Content="Button24"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button25"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button26"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button27"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button28"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button29"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button30"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+                <Button 
+                    Content="Button31"
+                    Height="50" 
+                    Margin="2.5" 
+                    Width="200" />
+            </WrapPanel>
+        
+        <ProgressBar Height="30" Margin="2.5"  Width="420"/>
+        <ScrollViewer Margin="2.5">
+            <TextBox Height="75" IsReadOnly="True" TextWrapping="Wrap" Text="" Width="400" HorizontalScrollBarVisibility="Visible"/>
+        </ScrollViewer>
+        <Button x:Name="Exit_Button"  Height="50" Margin="2.5" Width="200">Exit</Button>
+    </StackPanel>
+</Window>
