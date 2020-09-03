@@ -8,5 +8,6 @@ TSSAdmin Tools is a collection of scripts, commandlets, applets, and other tools
 **TSSAdminTools.ps1** - is a collection of powershell scripts and commandlets for interfacing with a collection of scripts often performed remotely or locally.
 
 
-Mileage Google Sheet that will calculate your monthly mileage. Make copy here: 
+Mileage Reimbursement Google Sheet that will calculate your monthly mileage. Make copy here: 
 [Mileage Sheet](https://docs.google.com/spreadsheets/d/1fAAr9Fh9f4HQsTxY1TbzslgLfzt5aWVaggU-xe6F4vQ/copy)
+![image](https://github.com/chistodex/tssadtools/blob/master/images/MileageReimbursement.png)
