@@ -3,6 +3,7 @@ TSSAdmin Tools is a collection of scripts, commandlets, applets, and other tools
 
 
 **TSSAdminTools.bat** - is a command-line tool for interfacing with a collection of scripts that can be ran locally.
+![image](https://github.com/chistodex/tssadtools/blob/master/images/TSSAdminTools.bat.png)
 
 **TSSAdminTools.ps1** - is a collection of powershell scripts and commandlets for interfacing with a collection of scripts often performed remotely or locally.
 
