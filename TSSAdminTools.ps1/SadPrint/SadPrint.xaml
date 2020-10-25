@@ -1,0 +1,39 @@
+<Window x:Name="MainWindow_Window"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Sad Print"
+    Width="445" ResizeMode="NoResize" Height="Auto" SizeToContent="Height"
+    >
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <StackPanel Margin="0,5,0,0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical">
+                
+                <Label Content="Computer Name:" Height="25" Margin="5" Width="100" />
+                <Label Content="Print Server:" Height="25" Margin="5" Width="100" />
+                <Label Content="Add Printer:" Height="25" Margin="5" Width="100" />
+                <Label Content="Remove Printer:" Height="25" Margin="5" Width="100" />
+                
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+
+                <TextBox x:Name="ComputerName_TextBox" Height="25" Margin="5" Width="200" />
+                <TextBox x:Name="PrintServer_TextBox" Height="25" Margin="5" Width="200" />
+                <ComboBox x:Name="AddPrinter_ComboBox" Height="25" Margin="5" Width="200" />
+                <ComboBox x:Name="RemovePrinter_ComboBox" Height="25" Margin="5" Width="200" />
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+
+                <Button x:Name="ComputerName_Button" Height="25" Margin="5" Width="65">Get</Button>
+                <Button x:Name="PrintServer_Button" Height="25" Margin="5" Width="65">Get</Button>
+                <Button x:Name="AddPrinter_Button" Height="25" Margin="5" Width="65">Add</Button>
+                <Button x:Name="RemovePrinter_Button" Height="25" Margin="5" Width="65">Remove</Button>
+
+            </StackPanel>
+        </StackPanel>
+        <TextBox x:Name="Output_TextBox" Height="100" IsReadOnly="True" Margin="10" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Width="380" />
+        <Button x:Name="Exit_Button" Height="50" Margin="5" Width="180">Exit</Button>
+    </StackPanel>
+
+</Window>
